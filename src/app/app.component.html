@@ -1,26 +1,22 @@
 <div id="wrapper">
-<header id="header">
-  <div class="logo">
-    <i class="fa fa-street-view logo-icon" aria-hidden="true"></i>
-  </div>
-  <div class="content">
-    <div id="intro">
-      <h1>AHV</h1>
-      <h4>Anthony H Velazquez</h4>
-      <p>Web Developer - Chicken - More Chicken</p>
+    <header id="header">
+      <div class="logo">
+        <i class="fa fa-street-view logo-icon" aria-hidden="true"></i>
+      </div>
+      <div class="content">
+        <div id="intro">
+            <router-outlet></router-outlet>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a [routerLink]="['']" onclick="test()">Intro</a></li>
+          <li><a [routerLink]="['/projects']">Projects</a></li>
+          <li><a [routerLink]="['/about']">About</a></li>
+          <li><a [routerLink]="['/contact']">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     </div>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="#intro">Intro</a></li>
-      <li><a href="#work">Projects</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#contact">Portal</a></li>
-    </ul>
-  </nav>
-</header>
-</div>
-<div id="background"></div>
-
-<router-outlet></router-outlet>
+    <div id="background"></div>
+    

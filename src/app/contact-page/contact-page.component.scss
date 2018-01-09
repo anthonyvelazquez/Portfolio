@@ -1,0 +1,13 @@
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.input-flex {
+    flex: 1;    
+    margin: 0px 5px;
+}
