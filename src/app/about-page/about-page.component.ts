@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import '../../assets/utils.js'
+declare var OpenAnimation: any;
 
 @Component({
   selector: 'app-about-page',
@@ -10,6 +12,7 @@ export class AboutPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    OpenAnimation.func1();
   }
 
 }

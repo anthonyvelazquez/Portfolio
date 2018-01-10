@@ -1,6 +1,29 @@
-<div class="contact-form">
-    <form class="form-inline contact-form">
-        <input type="text" class="form-control input-flex" placeholder="Name">
-        <input type="text" class="form-control input-flex" placeholder="Email">
-    </form>
-</div>
+
+<div id="wrapper">
+        <header id="header">
+          <div class="logo">
+            <i class="fa fa-street-view logo-icon" aria-hidden="true"></i>
+          </div>
+          <div class="logo-line"></div>
+          <div class="content">
+            <div id="intro">
+                    <div class="contact-form">
+                            <form class="form-inline contact-form">
+                                <input type="text" class="form-control input-flex" placeholder="Name">
+                                <input type="text" class="form-control input-flex" placeholder="Email">
+                            </form>
+                        </div>
+            </div>
+          </div>
+          <div class="logo-line"></div>
+          <nav style="padding-right: 5px">
+            <ul>
+              <li><a [routerLink]="['']">Intro</a></li>
+              <li><a [routerLink]="['/projects']">Projects</a></li>
+              <li><a [routerLink]="['/about']">About</a></li>
+              <li><a [routerLink]="['/contact']">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        </div>
+        <div id="background"></div>

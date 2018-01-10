@@ -1,3 +1,31 @@
-<p>
-  project-page works!
-</p>
+<div id="wrapper">
+    <header id="header">
+      <div class="logo">
+        <i class="fa fa-street-view logo-icon" aria-hidden="true"></i>
+      </div>
+      <div class="logo-line"></div>
+      <div class="content">
+        <div id="intro">
+                <h4>Projects</h4>
+                <ul>
+                  <li>
+                    <h4>Sample 1: <a href="#">View Project</a></h4>
+                    <p>Sample Project Description</p>
+                  </li>
+                </ul>
+        </div>
+      </div>
+      <div class="logo-line"></div>
+      <nav style="padding-right: 5px">
+        <ul>
+          <li><a [routerLink]="['']">Intro</a></li>
+          <li><a [routerLink]="['/projects']">Projects</a></li>
+          <li><a [routerLink]="['/about']">About</a></li>
+          <!-- <li><a [routerLink]="['/contact']">Contact</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    </div>
+    <div id="background"></div>
+
+    <!-- https://brittanychiang.com/ -->

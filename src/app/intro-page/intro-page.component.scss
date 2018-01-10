@@ -74,21 +74,13 @@
 }
 
 #intro {
-    max-height: 100px;
-    opacity: 0;
-    transition-delay: 0.25s;
-    padding: 5% 1%;
-    transition: max-height 0.75s ease, opacity 0.325s ease-in-out;
+    max-height: 0px;
+    padding: 0px 0px;
+    transition: max-height 5s ease-in-out, padding 1s ease-in-out;
     overflow: hidden;
-}
-#intro:hover {
-    padding: 5% 1%;
-    opacity: 1;
-    max-height: 999px;
 }
 
 #header nav ul {
-    margin-top: 20%;
     display: flex;
     margin-bottom: 0;
     list-style: none;
@@ -117,4 +109,10 @@
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.logo-line {
+    width: 1px;
+    height: 75px;
+    border: 1px solid white;
 }
