@@ -178,3 +178,134 @@ a {
     margin: 0 auto;
     width: 100%;
 }
+
+#skill-section .skill-wrapper {
+    padding: 100px;
+}
+
+#skill-section .sub-heading {
+    width: 60%;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 1em;
+}
+#skill-section .divider {
+    display: block;
+    margin: 30px 0;
+    width: 100px;
+    height: 2px;
+    background-color: #00b7c7;
+}
+
+#skill-section .skill-inner-wrapper {
+    padding-right: 20px;
+}
+
+#skill-section .skill-text-wrapper {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+#skill-section .skill-wrapper .skill-text-wrapper .skill-text {
+    margin-bottom: 10px;
+    font-size: 1.15em;
+}
+
+#contact-section .contact-wrapper {
+    padding: 100px;
+}
+
+#contact-section .sub-heading {
+    width: 60%;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 1em;
+}
+#contact-section .divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 2px;
+    background-color: #00b7c7;
+}
+
+#contact-section .contact-inner-wrapper {
+    padding-right: 20px;
+}
+
+#contact-section .contact-text-wrapper {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+#contact-section .contact-wrapper .contact-text-wrapper .contact-text {
+    margin-bottom: 10px;
+    font-size: 1.15em;
+}
+
+.center {
+    text-align: center;
+}
+
+#contact-form {
+    margin: 50px auto;
+    width: 500px;
+}
+
+.contact-label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+.contact-input {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    max-height: 175px !important;
+    min-height: 175px !important;
+}
+
+#footer-section .footer-wrapper {
+    padding: 100px;
+}
+
+#footer-section .sub-heading {
+    width: 60%;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 1em;
+}
+#footer-section .divider {
+    display: block;
+    margin: 30px 0;
+    width: 100px;
+    height: 2px;
+    background-color: #00b7c7;
+}
+
+#footer-section .footer-inner-wrapper {
+    padding-right: 20px;
+}
+
+#footer-section .footer-text-wrapper {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+#footer-section .footer-wrapper .footer-text-wrapper .footer-text {
+    margin-bottom: 10px;
+    font-size: 1.15em;
+}
