@@ -213,6 +213,12 @@ a {
     font-size: 1.15em;
 }
 
+#contact-section .bg {
+    background-image: url('../assets/contact-xl.jpg');
+    z-index: -1;
+    
+}
+
 #contact-section .contact-wrapper {
     padding: 100px;
 }
