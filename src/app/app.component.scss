@@ -275,6 +275,13 @@ a {
     margin-bottom: 10px;
     display: block;
     width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px;
+    border-color: white;
+    border-style: solid;
+    outline: none;
+    color: white;
 }
 
 .footer {
@@ -283,7 +290,7 @@ a {
 }
 
 #footer-section .footer-wrapper {
-    padding: 100px;
+    padding: 50px;
 }
 
 #footer-section .sub-heading {
@@ -314,4 +321,46 @@ a {
 #footer-section .footer-wrapper .footer-text-wrapper .footer-text {
     margin-bottom: 10px;
     font-size: 1.15em;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.social-btn {
+    display: inline-block;
+    color: red;
+    margin: 0 5px;
+}
+
+.social-a {
+    text-decoration: none;
+    color: red;
+    fill: red;
+}
+
+.footer-name {
+    margin-top: 30px;
+}
+
+.language {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 6;
+    margin: 10px 10px 10px 0;
+    padding: 0;
+
+}
+.language-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
 }
