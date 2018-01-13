@@ -18,3 +18,10 @@ html, body {
     color: #f2f2f2;
     background-color: #1b1b1b;
 }
+html {
+    overflow:   scroll;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }

@@ -1,7 +1,36 @@
 <!-- https://brittanychiang.com/v2/ -->
 <nav id="dot-nav">
     <ul>
-        <li class="dot-container"><a href="#intro-section" data-number="0" class="is-selected">...</a></li>
+        <li class="dot-container">
+          <a href="#intro-section" data-number="0" class="is-selected">
+              <span style="margin-right: 10px">Intro</span><span><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
+          </a>
+        </li>
+        <li class="dot-container">
+          <a href="#about-section" data-number="0" class="is-selected">
+              <span style="margin-right: 10px">About</span><span><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
+          </a>
+        </li>
+        <li class="dot-container">
+          <a href="#service-section" data-number="0" class="is-selected">
+              <span style="margin-right: 10px">What I Do</span><span><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
+          </a>
+        </li>
+        <li class="dot-container">
+          <a href="#skill-section" data-number="0" class="is-selected">
+              <span style="margin-right: 10px">Skills</span><span><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
+          </a>
+        </li>
+        <li class="dot-container">
+          <a href="#project-section" data-number="0" class="is-selected">
+              <span style="margin-right: 10px">Projects</span><span><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
+          </a>
+        </li>
+        <li class="dot-container">
+            <a href="#contact-section" data-number="0" class="is-selected">
+                <span style="margin-right: 10px">Contact</span><span><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
+            </a>
+          </li>
     </ul>
 </nav>
 <div class="body-content">
@@ -11,6 +40,9 @@
             <div class="intro-body">
                 <div class="intro-content">
                     <h1 class="heading">Anthony H Velazquez</h1>
+                    <p class="intro-text">Front and Back end Software Engineer</p>
+                    <p class="intro-text">Game Developer</p>
+                    <p class="intro-text">Student</p>
                 </div>
             </div>
         </div>
@@ -35,25 +67,27 @@
       <div class="service-wrapper">
           <h1 class="section-heading">What I Do</h1>
           <div class="divider"></div>
-          <div class="about-inner-wrapper" style="padding-left: 5%;">
-            <div class="row">
-              <div class="col-md-6">
-                <h3 class="" style="margin-bottom: 5%;"><i class="fa fa-desktop" aria-hidden="true"></i> Web Development</h3>
-                <p class="about-text">Hello</p>
+          <div class="service-inner-wrapper">
+            <div class="flex-container-col">
+              <div class="flex-item flex-container-row ">
+                <div class="flex-item service-bar" style="border-bottom: 1px;border-style: solid;border-color: white;">
+                  <h3 style="margin-top: 2%;margin-bottom: 5%;"><i class="fa fa-desktop service-icon-spacing" aria-hidden="true"></i> Web Development</h3>
+                  <p class="about-text">With HTML, CSS, JavaScript and other frameworks and build tools such as Sass, I can develop appealing websites and apps while maintaining a modular and efficient code base.</p>
+                </div>
+                <div class="flex-item service-bar" style="border-left: 1px;border-bottom: 1px;border-style: solid;border-color: white;">
+                  <h3 style="margin-top: 2%;margin-bottom: 5%;"><i class="fa fa-desktop service-icon-spacing" aria-hidden="true"></i> Game Programming</h3>
+                  <p class="about-text">From Allegro and SDL to Unreal and Unity, I can create smooth and comprehensive gameplay with clean, game state driven programming. I strive to create gameplay that engages the user and makes him want to keep playing over and over again.</p>
+                </div>
               </div>
-              <div class="col-md-6">
-                <h3 class="" style="margin-bottom: 5%;"><i class="fa fa-desktop" aria-hidden="true"></i> Game Programming</h3>
-                <p class="about-text">Hello</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <h3 class="" style="margin-bottom: 5%;"><i class="fa fa-desktop" aria-hidden="true"></i> iOS Development</h3>
-                <p class="about-text">Hello</p>
-              </div>
-              <div class="col-md-6">
-                <h3 class="" style="margin-bottom: 5%;"><i class="fa fa-desktop" aria-hidden="true"></i> Application Programming</h3>
-                <p class="about-text">Hello</p>
+              <div class="flex-item flex-container-row ">
+                <div class="flex-item service-bar">
+                  <h3 style="margin-top: 2%;margin-bottom: 5%;"><i class="fa fa-desktop service-icon-spacing" aria-hidden="true"></i> iOS Development</h3>
+                  <p class="about-text">With Unity and Xcode I strive to develop iOS applications that fit the client's needs along with giving a fun and simple to use user experience.</p>
+                </div>
+                <div class="flex-item service-bar" style="border-left: 1px;border-style: solid;border-color: white;">
+                  <h3 style="margin-top: 2%;margin-bottom: 5%;"><i class="fa fa-desktop service-icon-spacing" aria-hidden="true"></i> Application Programming</h3>
+                  <p class="about-text">Last but not least with C++, Qt Creator and Visual Studio I can create stunning applications for Windows while keeping cross compatibility and efficiency in mind for Linux as well.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -64,50 +98,60 @@
             <h1 class="section-heading">Skills</h1>
             <div class="divider"></div>
             <div class="skill-inner-wrapper">
-                <div class="row">
-                    <div class="col-md-5">
+                <div class="flex-container-row">
+                    <div class="flex-item">
                         <div class="skill-text-wrapper">
-                            <p class="skill-text">Development</p>
-                            <ul class="language-list">
-                                <li class="language">C++</li>
-                                <li class="language">Python</li>
-                                <li class="language">Java</li>
-                                <li class="language">HTML/CSS</li>
-                                <li class="language">Django</li>
-                                <li class="language">Javascript</li>
-                                <li class="language">Angular</li>
-                                <li class="language">Node.js</li>
-                                <li class="language">Swift</li>
-                            </ul>
+                            <h3><i class="fa fa-keyboard-o service-icon-spacing" aria-hidden="true"></i> Development</h3>
+                            <div class="flex-container-col">
+                              <div class="flex-item flex-container-row">
+                                  <div class="flex-item language">C++</div>
+                                  <div class="flex-item language">Python</div>
+                                  <div class="flex-item language">Java</div>
+                              </div>
+                              <div class="flex-item flex-container-row">
+                                  <div class="flex-item language">HTML/CSS</div>
+                                  <div class="flex-item language">Django</div>
+                                  <div class="flex-item language">Javascript</div>
+                              </div>
+                              <div class="flex-item flex-container-row">
+                                  <div class="flex-item language">Angular</div>
+                                  <div class="flex-item language">Node.js</div>
+                                  <div class="flex-item language">Swift</div>
+                              </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
-                        <div class="row">
-                            <div class="col-md-12">
-                                    <div class="skill-text-wrapper">
-                                            <p class="skill-text">Hello</p>
-                                            <p class="skill-text">Test</p>
-                                            <p class="skill-text">Chicken</p>
-                                        </div>
+                    <div class="flex-item">
+                        <div class="flex-container-row">
+                            <div class="flex-item">
+                              <div class="skill-text-wrapper">
+                                  <h3><i class="fa fa-wrench service-icon-spacing" aria-hidden="true"></i> Certifications</h3>
+                                <ul class="tool-list">
+                                    <li class="tool"><i class="fa fa-check tool-check-spacing" aria-hidden="true"></i> Google SEO Certification</li>
+                                </ul>
+                              </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                    <div class="skill-text-wrapper">
-                                            <p class="skill-text">Hello</p>
-                                            <ul class="tool-list">
-                                                <li class="tool"><i class="fa fa-check" aria-hidden="true"></i> Git + Github</li>
-                                                <li class="tool"><i class="fa fa-check" aria-hidden="true"></i> Command Line</li>
-                                                <li class="tool"><i class="fa fa-check" aria-hidden="true"></i> Visual Studio/Code</li>
-                                            </ul>
-                                        </div>
+                        <div class="flex-container-row" style="margin-top: 10%;">
+                            <div class="flex-item">
+                              <div class="skill-text-wrapper">
+                                  <h3><i class="fa fa-wrench service-icon-spacing" aria-hidden="true"></i> Tools</h3>
+                                <ul class="tool-list">
+                                    <li class="tool"><i class="fa fa-check tool-check-spacing" aria-hidden="true"></i> Git + Github</li>
+                                    <li class="tool"><i class="fa fa-check tool-check-spacing" aria-hidden="true"></i> Command Line</li>
+                                    <li class="tool"><i class="fa fa-check tool-check-spacing" aria-hidden="true"></i> Visual Studio/Code</li>
+                                </ul>
+                              </div>
                             </div>
-                            <div class="col-md-6">
-                                    <div class="skill-text-wrapper">
-                                            <p class="skill-text">Hello</p>
-                                            <p class="skill-text">Test</p>
-                                            <p class="skill-text">Chicken</p>
-                                        </div>
+                            <div class="flex-item">
+                              <div class="skill-text-wrapper">
+                                  <h3><i class="fa fa-book service-icon-spacing" aria-hidden="true"></i> Knowledge</h3>
+                                <ul class="tool-list">
+                                    <li class="tool"><i class="fa fa-check tool-check-spacing" aria-hidden="true"></i> Debugging</li>
+                                    <li class="tool"><i class="fa fa-check tool-check-spacing" aria-hidden="true"></i> Reverse Engineering</li>
+                                    <li class="tool"><i class="fa fa-check tool-check-spacing" aria-hidden="true"></i> 3D Modeling</li>
+                                </ul>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -115,35 +159,28 @@
             </div>
         </div>
     </section>
-    <section class="section reset-bg" id="service-section">
+    <section class="section reset-bg" id="project-section">
         <div class="bg"></div>
-        <div class="service-wrapper">
+        <div class="project-wrapper">
             <h1 class="section-heading">Some Projects</h1>
             <div class="divider"></div>
-            <div class="about-inner-wrapper" style="padding-left: 5%;">
-                <div class="row">
-                <div class="col-md-6">
-                    <h3 class="" style="margin-bottom: 5%;"><i class="fa fa-desktop" aria-hidden="true"></i> I like Chicken.</h3>
-                    <p class="about-text">Hello</p>
-                </div>
-                <div class="col-md-6">
-                    <h3 class="" style="margin-bottom: 5%;"><i class="fa fa-desktop" aria-hidden="true"></i> I like Chicken.</h3>
-                    <p class="about-text">Hello</p>
-                </div>
-                </div>
-                <div class="row">
-                <div class="col-md-6">
-                    <h3 class="" style="margin-bottom: 5%;"><i class="fa fa-desktop" aria-hidden="true"></i> I like Chicken.</h3>
-                    <p class="about-text">Hello</p>
-                </div>
-                <div class="col-md-6">
-                    <h3 class="" style="margin-bottom: 5%;"><i class="fa fa-desktop" aria-hidden="true"></i> I like Chicken.</h3>
-                    <p class="about-text">Hello</p>
-                </div>
+            <div class="project-inner-wrapper" style="padding-left: 5%;">
+                <div class="flex-container-col">
+                  <div class="flex-item">
+                      <h3 class="" style="margin-bottom: 1%;"><i class="fa fa-desktop" aria-hidden="true" style="margin-right: 3%;" ></i> Smart Hub</h3>
+                      <p class="project-text">Smart Hub is a web app that turns your Raspberry Pi or any other device into an Smart AI System. The application allows you to view your emails, do searches for cryptocurrency prices, set alarms and reminder, etc. In other works Smart Hub is Google Home/Alexa for any device and with added features.</p>
+                      <div class="flex-container-row">
+                        <div class="flex-item used-item">Django</div>
+                        <div class="flex-item used-item">Python</div>
+                      </div>
+                  </div>
                 </div>
             </div>
         </div>
     </section>
+    <a class="big-btn" href="https://www.github.com/anthonyvelazquez/" target="_blank">
+      <span class="btn-link-text"><i class="fa fa-github" aria-hidden="true"></i> View More Projects...</span>
+    </a>
     <section class="section reset-bg" id="contact-section">
         <div class="bg"></div>
         <div class="contact-wrapper">
@@ -170,12 +207,12 @@
             <div class="footer-wrapper">
                 <div class="center">
                     <ul class="social">
-                        <li class="social-btn"><a href="mailto:anthonyhvelazquez@gmail.com" class="social-a" title="Gmail"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gmail.svg" /></a></li>
-                        <li class="social-btn"><a href="#" class="social-a"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a></li>
-                        <li class="social-btn"><a href="#" class="social-a"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a></li>
-                        <li class="social-btn"><a href="#" class="social-a"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codepen.svg" /></a></li>
-                        <li class="social-btn"><a href="https://github.com/anthonyvelazquez/" class="social-a" title="Github"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" /></a></li>
-                        <li class="social-btn"><a href="https://www.linkedin.com/in/anthonyhvelazquez/" class="social-a" title="Linkedin"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" /></a></li>
+                        <li class="social-btn"><a href="mailto:anthonyhvelazquez@gmail.com" target="_blank" class="social-a" title="Gmail"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gmail.svg" /></a></li>
+                        <li class="social-btn"><a href="https://instagram.com/aanthonyz" target="_blank" class="social-a"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" /></a></li>
+                        <li class="social-btn"><a href="https://https://twitter.com/aanthonyz2" target="_blank" class="social-a"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a></li>
+                        <li class="social-btn"><a href="https://www.codepen.io/anthonyhvelazquez/" target="_blank" class="social-a"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codepen.svg" /></a></li>
+                        <li class="social-btn"><a href="https://www.github.com/anthonyvelazquez/" target="_blank" class="social-a" title="Github"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" /></a></li>
+                        <li class="social-btn"><a href="https://www.linkedin.com/in/anthonyhvelazquez/" target="_blank" class="social-a" title="Linkedin"><img width="48" width="48" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" /></a></li>
                     </ul>
                     <p class="footer-name">	&copy; Anthony Velazquez 2018</p>
                 </div>
